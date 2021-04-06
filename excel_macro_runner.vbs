@@ -48,6 +48,7 @@ on error resume next
 on error goto 0 
 
 'If needed, save a copy of the excel file with today's date
+' Delete next 4 lines if not needed
 Dim sDate 
 sDate = FormatDateTime(Now(), 1)
 
